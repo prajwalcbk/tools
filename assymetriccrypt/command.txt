@@ -1,0 +1,8 @@
+
+
+
+
+1.Generating a private key => openssl genrsa -des3 -out private1.key 4096
+2.Generating the public key using privatekey => openssl rsa -in private.key -pubout -out public.key
+3.Encrypting the data using public key => openssl rsautl -encrypt -pubin -inkey public.key -in text.txt -out encrypted.txt
+4.Decrypting the data using the private key => openssl rsautl -decrypt  -inkey private.key -in  encrypted.txt -out p.txt

@@ -1,0 +1,2 @@
+_gateway (192.168.43.1) at 40:b8:9a:09:0b:b7 [ether] on wlan0
+? (192.168.43.108) at 40:b8:9a:09:0b:b7 [ether] on wlan0

@@ -1,0 +1,9 @@
+
+
+ Gererating the key => openssl genrsa -des3 -out p.key 4096
+
+ Generating the Certificate => openssl req -new -x509 -days 365 -key p.key -out certificate.crt
+ 
+ To open the certificate  => openssl x509 -text -in certificate.crt
+
+

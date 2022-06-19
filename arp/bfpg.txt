@@ -1,0 +1,1 @@
+_gateway (192.168.43.1) at d8:32:e3:5a:a4:6a [ether] on wlan0
